@@ -2,32 +2,6 @@
 /* THIS FILE CONTAINS THE MERGE SORT FUNCTION AND ITS TESTS */
 
 
-/*
-    BASE CASES:
-    (1) A list with ONE item is sorted
-    (2) A list with ZERO items is sorted
-
-    2 Methods to Merge Sort
-        (1) Split
-        (2) Merge
-
-
-    Split:
-        O(log(n))
-        The number of levels to split downward
-        log(8) == 3 levels
-
-                    8
-                4       4       (1) Split 1
-                2   2   2   2     (2) Split 2
-            1  1 1 1 1 1 1 1    (3) Split 3 *** 3 Levels = log(8)
-    
-    Merge:
-        O(n)
-        The number of comparisons... (kind of?)
-*/
-
-
 import java.util.Arrays;
 public class MergeSort{
         
